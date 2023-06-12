@@ -1,0 +1,70 @@
+.van-nav-bar__text {
+  color: #0c34ba;
+  font-weight: 700;
+}
+html {
+  background-color: #fff;
+}
+html .login {
+  background-color: #fff;
+}
+html .login .nav-left {
+  width: 300px;
+  height: 100%;
+}
+html .login .nav-left .login_logo {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 5px;
+}
+html .login .nav-left .logo_text {
+  line-height: 50px;
+  margin-left: 12px;
+  font-size: 14px;
+  font-weight: 700;
+}
+html .login .user-box {
+  margin-top: 2.13333rem;
+  padding: 0.26667rem;
+}
+html .login .user-box .welcome {
+  font-size: 30px;
+}
+html .login .user-box .en-welcome {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #999;
+}
+html .login .login_signfrom {
+  margin-top: 50px;
+}
+html .login .login_signfrom .van-cell-group .van-button {
+  margin-top: 0;
+}
+html .login .login_signfrom .forgot {
+  display: flex;
+  margin-top: 20px;
+}
+html .login .login_signfrom .forgot .forgot_pwd {
+  margin-right: 20px;
+  font-size: 8px;
+  color: #666;
+}
+html .login .login_signfrom .van-button {
+  margin-top: 50px;
+}
+html .login .register_form .van-popup {
+  overflow-y: 0;
+}
+html .login .register_form .van-popup .register_box {
+  padding: 10px;
+}
+html .login .register_form .van-popup .register_box .register_form_text {
+  color: #444444;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+html .login .register_form .van-popup .register_box .btn_register_form {
+  margin-top: 50px;
+}

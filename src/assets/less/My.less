@@ -1,0 +1,90 @@
+html {
+    background-color: #f5f5f5;
+}
+
+.my {
+    background-color: #f5f5f5;
+    .bg-box {
+        position: relative;
+        // background-color: pink;
+
+        .my-bg {
+            position: relative;
+            width: 100%;
+            height: 140px;
+
+            background-position: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #e8e8e8;
+
+            // border-bottom: 1px solid #000;
+            // background-image: url("C:\Users\小铭\PycharmProjects\HTML\案例\web课设\images\6.jpg") !important;
+
+            .my-update {
+                width: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                opacity: 0;
+
+                .van-uploader__wrapper,
+                .van-uploader,
+                .van-uploader__upload {
+                    margin: 0;
+                    width: 100%;
+                    height: 140px;
+                }
+            }
+        }
+    }
+
+    .my-box {
+        padding: 10px;
+        margin: 10px;
+        position: relative;
+        top: -45px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-image: linear-gradient(180deg, hsl(0deg 33% 82% / 50%) 0, hsl(0deg 5% 92% / 50%) .93333rem, #ffffff 0);
+        // z-index: 6;
+
+        .my-info {
+            display: flex;
+            align-items: center;
+
+            .my-img {
+                width: 50px;
+                height: 50px;
+                background-color: #ddd;
+                border-radius: 50%;
+                box-shadow: 0 0 0 0.08rem rgb(0 0 0 / 30%);
+                overflow: hidden;
+            }
+
+            .userinfo {
+                font-size: 14px;
+                margin-left: 18px;
+
+                .user-name {
+                    font-weight: 700;
+                    color: #0c34ba;
+                }
+
+                .user-desc {
+                    margin-top: 10px;
+                    color: #666;
+                }
+            }
+        }
+
+        .my-list {
+            margin-top: 50px;
+            .my-list:first-child{
+                margin-top: 70px;
+            }
+        }
+    }
+}

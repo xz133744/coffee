@@ -1,0 +1,42 @@
+.Secure .van-icon {
+  color: #c94d4d;
+}
+.Secure .van-nav-bar__text {
+  color: #c94d4d;
+}
+.Secure .secure-bg {
+  height: 2.66667rem;
+  background-color: #c94d4d;
+}
+.Secure .secure-box {
+  margin: -0.8rem 0.26667rem 0;
+  border-top-left-radius: 0.26667rem;
+  border-top-right-radius: 0.26667rem;
+  background-color: #fff;
+  padding: 0.26667rem;
+}
+.Secure .btn-box {
+  margin-top: 2.66667rem;
+  padding: 0.26667rem;
+}
+.Secure .van-button--info {
+  background-color: #0c34ba;
+  border-color: #0c34ba;
+}
+.Secure .van-button {
+  width: 100%;
+  font-size: 15px;
+}
+.Secure .change-box .change-title {
+  font-size: 0.64rem;
+  padding: 0.26667rem;
+}
+.Secure .change-box .v-login {
+  margin-top: 0.6777rem;
+  color: white;
+  background: #0c34ba;
+  border-color: #0c34ba;
+}
+.Secure .change-box .password {
+  padding: 0.3rem;
+}

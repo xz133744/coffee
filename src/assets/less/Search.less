@@ -1,0 +1,26 @@
+html{
+    background-color: #f5f5f5;
+}
+.Proitem-box {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: flex-start;
+    padding: .26667rem;
+
+
+    .item {
+        // flex: 1;
+        width: calc((100% - 50px)/2);
+        background-color: #fff;
+        margin-bottom: .26667rem;
+        margin-right: .26667rem;
+        padding: .26667rem;
+        max-width: calc((100% - 50px)/2);
+        min-width: calc((100% - 50px)/2);
+        &:nth-child(2n){
+            margin-right: 0;
+        }
+        
+    }
+}

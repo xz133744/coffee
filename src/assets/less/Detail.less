@@ -1,0 +1,140 @@
+.detail {
+    background-color: #f5f5f5;
+    
+
+    >div:first-child {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    img{
+        margin-top: 45px;
+    }
+    // .van-goods-action-button--last {
+    //     background: linear-gradient(to right, #4b3732,#ff7887)!important;
+    // }
+   
+    // .van-goods-action-button--danger{
+    //     background: linear-gradient(to right, #3a3da8, #b4177a);
+    // }
+    .van-goods-action-button--danger {
+        background: linear-gradient(to right, #4e509e, #cb6aa8);
+    }
+    .van-goods-action-button--last {
+        background: linear-gradient(to right, #dc9d8d, #a60316) !important;
+    }
+    
+    .van-goods-action {
+        z-index: 6;
+        
+    }
+
+    .pro-info-box {
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+
+
+        .pro-info {
+            z-index: 6;
+            position: relative;
+            background-color: #fff;
+            margin: 0 10px;
+            top: -.26667rem;
+            padding: 10px;
+            
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+
+            .pro-box {
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: space-between;
+
+                .pro-price {
+                    margin-right: 0;
+                }
+            }
+
+            .detail-rules {
+                margin-top: 15px;
+
+                .detail-rules-item {
+                    display: flex;
+                    margin-bottom: 10px;
+                    line-height: 30px;
+                    height: 30px;
+
+                    .rules-title {
+                        width: 1.33333rem;
+                        // height: 30px;
+                        font-size: .37333rem;
+                    }
+
+                    .rules {
+                        display: flex;
+                        font-size: .37333rem;
+
+                        .rules-item {
+                            text-align: center;
+                            width: 70px;
+                            // height: 30px;
+                            margin-right: .26667rem;
+                            border-radius: 20px;
+                            background-color: #e8e8e8;
+
+                            &.active {
+                                background-color: #3762f0;
+                                color: #fff;
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            .detail-count {
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+                padding: 10px 0;
+                justify-content: space-between;
+                border-top: 2px solid #f9f9f9;
+                border-bottom: 2px solid #f9f9f9;
+
+                .count-text {
+                    font-size: .37333rem;
+                    color: #666;
+                }
+            }
+
+            .detail-desc {
+                margin-top: 20px;
+                // padding-top: 20px;
+
+                .desc-title {
+                    font-size: .37333rem;
+                    margin-bottom: 10px;
+                }
+
+                .detail-desc-content {
+                    color: #666;
+
+                    .desc-content-item {
+                        margin-bottom: .26667rem;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .van-tabbar,
+    .van-action-bar,
+    .van-tabbar--fixed,
+    .van-tabbar,
+    .van-tabbar--fixed {
+        display: none;
+    }
+}

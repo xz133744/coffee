@@ -1,0 +1,104 @@
+.pay-box {
+  padding: 10px;
+}
+.pay-box .select-address {
+  background-color: #fff;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.pay-box .select-address :first-child {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+.pay-box .select-address :first-child span {
+  font-size: 14px;
+  font-weight: 700;
+}
+.pay-box .select-address :first-child .arrow {
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+.pay-box .select-address .user-box .userinfo {
+  display: flex;
+  align-items: center;
+}
+.pay-box .select-address .user-box .userinfo .user-name {
+  font-size: 14px;
+  font-weight: 700;
+}
+.pay-box .select-address .user-box .userinfo .user-phone {
+  font-size: 14px;
+  color: #666;
+  margin: 0 10px;
+}
+.pay-box .select-address .user-box .userinfo .default-address span {
+  font-weight: 400;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--van-tag-padding);
+  color: var(--van-tag-text-color);
+  font-size: var(--van-tag-font-size);
+  line-height: var(--van-tag-line-height);
+  width: 32px;
+  height: 16px;
+  background: #0c34ba;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.pay-box .select-address .user-box .detail-address {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #999;
+}
+.pay-box .order-info {
+  padding: 10px;
+  margin-top: 30px;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.pay-box .order-info :first-child {
+  font-size: 14px;
+}
+.pay-box .order-info .info-title {
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+.pay-box .btn-box {
+  position: fixed;
+  left: 0;
+  bottom: -20px;
+  width: calc(100% - 60px);
+  padding: 10px;
+}
+.pay-box .van .change-box {
+  padding: 10px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+.pay-box .van .change-box .change-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+.pay-box .van .change-box .van-tag--danger {
+  background-color: #0c34ba;
+}
+.pay-box .van .change-box .van-address-item .van-radio__icon--checked .van-icon {
+  background-color: #0c34ba;
+  border-color: #4a070f;
+}
+.pay-box .van .change-box .van-button--danger {
+  background-color: #0c34ba;
+  border: 0.02667rem solid #0c34ba;
+}
+.pay-box .van .change-box .van-address-item__edit {
+  font-size: 0;
+}

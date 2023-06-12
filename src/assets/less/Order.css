@@ -1,0 +1,77 @@
+html,
+body {
+  background-color: #f5f5f5;
+}
+.order .bg-content {
+  margin: 0 0.26667rem;
+  position: relative;
+  top: -0.53333rem;
+  border-top-left-radius: 0.26667rem;
+  border-top-right-radius: 0.26667rem;
+  overflow: hidden;
+}
+.order .white {
+  background-color: #fff;
+}
+.order .order-list {
+  margin-bottom: 0.26667rem;
+  background-color: #fff;
+  padding: 0.26667rem;
+}
+.order .a {
+  margin-bottom: 40px;
+}
+.order .info-title {
+  padding: 0.26667rem 0;
+  font-size: 0.37333rem;
+  font-weight: 700;
+}
+.order .info-title-no {
+  font-size: 0.37333rem;
+  color: #666;
+}
+.order .reinfo {
+  font-size: 0.37333rem;
+  color: #666;
+}
+.order .delete {
+  padding-left: 5px;
+}
+.order .pro-item {
+  padding-bottom: 15px;
+}
+.order .auto_img {
+  float: left;
+  width: 2.13333rem;
+  height: 2.13333rem;
+  margin-right: 10px;
+}
+.order .pro-name {
+  font-size: 0.37333rem;
+  max-width: 2.66667rem;
+}
+.order .pro-enname {
+  font-size: 0.32rem;
+  color: #999;
+  margin-top: 0.08rem;
+}
+.order .pro-price {
+  font-size: 0.37333rem;
+  font-weight: 700;
+  color: #e4393c;
+  margin-top: 15px;
+  margin-left: -5px;
+}
+.order .bottom-into {
+  font-size: 14px;
+  align-items: center;
+  padding: 0.53333rem 0 0.26667rem;
+  border-top: 0.02667rem dashed #e8e8e8;
+  position: relative;
+  flex-wrap: wrap;
+}
+.order .total {
+  color: #e4393c;
+  font-weight: 700;
+  margin-left: auto;
+}

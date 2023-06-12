@@ -1,0 +1,123 @@
+html,
+body {
+    background-color: #f5f5f5;
+}
+.shopbag{
+    .van-nav-bar__right,.van-nav-bar__left,.van-nav-bar__text,.van-icon-arrow-left:before{
+        color: #0c34ba;
+    }
+}
+
+.shop-bg {
+    height: 1.6rem;
+    background: url(../images/shopbag_bg.png) no-repeat 50%;
+    background-size: cover;
+}
+.van-submit-bar__bar{
+    justify-content: space-between;
+}
+
+
+.shopbag-box {
+    .van-submit-bar{
+        bottom: 49px;
+    } 
+    background-color: #f5f5f5;
+    .shopbag-product {
+        padding: .26667rem;
+        padding-bottom: 50px;
+
+        .shopbag-item {
+            margin-bottom: 10px;
+            .delete-button{
+                color: #ffffff;
+                height: 100%;
+                width: 60px;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+
+            .cell-item-box {
+                display: flex;
+                padding: .26667rem;
+                align-items: center;
+                background-color: #fff;
+                border-radius: .26667rem;
+                overflow: hidden;
+
+                .chech-box {
+                    width: .53333rem;
+                    height: .53333rem;
+                }
+
+                .pro-info-box {
+                    display: flex;
+                    min-width: 327px;
+                    // justify-content: space-evenly;
+
+                    .pro-img {
+                        width: 2.13333rem;
+                        height: 2.13333rem;
+                        background-color: #ddd;
+                        margin: 0 .26667rem;
+                    }
+
+                    .pro-info {
+                        width: calc(100% - 115px);
+                        height: 2.13333rem;
+
+                        .names {
+                            display: flex;
+                            align-items: center;
+                            // justify-content: space-between;
+
+                            .pro-name {
+                                color: #444;
+                                font-weight: 400;
+                                font-size: .37333rem !important;
+                                text-align: left;
+                                margin-top: 0;
+                                max-height: 19px;
+                                min-width: 85px;
+            
+                            }
+
+                            .pro-rule {
+                                margin-left: 20px;
+                                font-size: .37333rem !important;
+                                color: #666;
+                            }
+                        }
+                        .pro-enname{
+                            font-size: .32rem;
+                            color: #999;
+                            max-width: 212px;
+                            margin-top: .08rem;
+                            display: block;
+                        }
+
+                        .pro-count-box {
+                            display: flex;
+                            font-size: .37333rem;
+                            justify-content: space-between;
+                            font-weight: 700;
+                            color: #e4393c;
+                            margin-right: auto;
+                            margin-top: 20px;
+                            .step-box{
+                                font-weight: 200;
+                            }
+                           
+                        }
+                    }
+                }
+            }
+            // .delete-button {
+            //     top: 15%;
+                
+            //     height: 80%;
+            //   }
+
+        }
+    }
+}

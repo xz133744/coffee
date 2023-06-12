@@ -1,0 +1,101 @@
+html,
+body {
+  background-color: #f5f5f5;
+}
+.shopbag .van-nav-bar__right,
+.shopbag .van-nav-bar__left,
+.shopbag .van-nav-bar__text,
+.shopbag .van-icon-arrow-left:before {
+  color: #0c34ba;
+}
+.shop-bg {
+  height: 1.6rem;
+  background: url(../images/shopbag_bg.png) no-repeat 50%;
+  background-size: cover;
+}
+.van-submit-bar__bar {
+  justify-content: space-between;
+}
+.shopbag-box {
+  background-color: #f5f5f5;
+}
+.shopbag-box .van-submit-bar {
+  bottom: 49px;
+}
+.shopbag-box .shopbag-product {
+  padding: 0.26667rem;
+  padding-bottom: 50px;
+}
+.shopbag-box .shopbag-product .shopbag-item {
+  margin-bottom: 10px;
+}
+.shopbag-box .shopbag-product .shopbag-item .delete-button {
+  color: #ffffff;
+  height: 100%;
+  width: 60px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.shopbag-box .shopbag-product .shopbag-item .cell-item-box {
+  display: flex;
+  padding: 0.26667rem;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0.26667rem;
+  overflow: hidden;
+}
+.shopbag-box .shopbag-product .shopbag-item .cell-item-box .chech-box {
+  width: 0.53333rem;
+  height: 0.53333rem;
+}
+.shopbag-box .shopbag-product .shopbag-item .cell-item-box .pro-info-box {
+  display: flex;
+  min-width: 327px;
+}
+.shopbag-box .shopbag-product .shopbag-item .cell-item-box .pro-info-box .pro-img {
+  width: 2.13333rem;
+  height: 2.13333rem;
+  background-color: #ddd;
+  margin: 0 0.26667rem;
+}
+.shopbag-box .shopbag-product .shopbag-item .cell-item-box .pro-info-box .pro-info {
+  width: calc(100% - 115px);
+  height: 2.13333rem;
+}
+.shopbag-box .shopbag-product .shopbag-item .cell-item-box .pro-info-box .pro-info .names {
+  display: flex;
+  align-items: center;
+}
+.shopbag-box .shopbag-product .shopbag-item .cell-item-box .pro-info-box .pro-info .names .pro-name {
+  color: #444;
+  font-weight: 400;
+  font-size: 0.37333rem !important;
+  text-align: left;
+  margin-top: 0;
+  max-height: 19px;
+  min-width: 85px;
+}
+.shopbag-box .shopbag-product .shopbag-item .cell-item-box .pro-info-box .pro-info .names .pro-rule {
+  margin-left: 20px;
+  font-size: 0.37333rem !important;
+  color: #666;
+}
+.shopbag-box .shopbag-product .shopbag-item .cell-item-box .pro-info-box .pro-info .pro-enname {
+  font-size: 0.32rem;
+  color: #999;
+  max-width: 212px;
+  margin-top: 0.08rem;
+  display: block;
+}
+.shopbag-box .shopbag-product .shopbag-item .cell-item-box .pro-info-box .pro-info .pro-count-box {
+  display: flex;
+  font-size: 0.37333rem;
+  justify-content: space-between;
+  font-weight: 700;
+  color: #e4393c;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.shopbag-box .shopbag-product .shopbag-item .cell-item-box .pro-info-box .pro-info .pro-count-box .step-box {
+  font-weight: 200;
+}
